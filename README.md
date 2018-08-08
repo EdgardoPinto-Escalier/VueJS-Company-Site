@@ -1,6 +1,6 @@
-# vuejs-company-site
+# VUEJS COMPANY SITE
 
-> A Vue.js project
+> A very simple Vue.js project
 
 ## Build Setup
 
