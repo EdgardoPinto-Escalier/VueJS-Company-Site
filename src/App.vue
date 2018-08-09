@@ -44,9 +44,9 @@
             <p><i class="far fa-copyright"></i>&nbsp; 2018 VueJS Company Site</p>
           </div>
           <div class="column has-text-right">
-            <a href="#" class="icon"><i class="fab fa-facebook fa-lg"></i></a>
-            <a href="#" class="icon"><i class="fab fa-twitter-square fa-lg"></i></a>
-            <a href="#" class="icon"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="icon foot"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="icon foot"><i class="fab fa-twitter-square fa-lg"></i></a>
+            <a href="#" class="icon foot"><i class="fab fa-instagram fa-lg"></i></a>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ footer
   background-color: $primary !important
   color: #FFFFFF
 
-.icon
+.icon.foot
   color: #FFFFFF
   margin-left: 20px
 
