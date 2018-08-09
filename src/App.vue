@@ -34,7 +34,24 @@
         </div>
       </div>
     </div>
+
     <router-view></router-view>
+
+    <footer class="footer is-primary">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <p><i class="far fa-copyright"></i>&nbsp; 2018 VueJS Company Site</p>
+          </div>
+          <div class="column has-text-right">
+            <a href="#" class="icon"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter-square fa-lg"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </div>
 </template>
 
@@ -67,6 +84,14 @@ a.right-item
 
 .navbar-burger span
       color: #FFFFFF  
+
+footer
+  background-color: $primary !important
+  color: #FFFFFF
+
+.icon
+  color: #FFFFFF
+  margin-left: 20px
 
 
 </style>
