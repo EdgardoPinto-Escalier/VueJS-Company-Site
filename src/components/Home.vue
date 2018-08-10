@@ -90,8 +90,7 @@ h2
   margin: 1.5rem 0 2rem 0 !important
 
 .fa-cog
-  font-size: 50px
-
+  font-size: 4rem
 
 #btnHero
   +desktop
@@ -107,6 +106,10 @@ section
 
 .card
   margin-left: 25px   
+  margin-right: 25px 
 
+.card-content p.subtitle
+  +desktop
+    margin-top: 10px
 
 </style>
